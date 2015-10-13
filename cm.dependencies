@@ -1,14 +1,20 @@
 [
   {
-    "repository": "android_device_qcom_common",
-    "target_path": "device/qcom/common"
+     "remote": "github",
+    "repository": "CyanogenMod/android_device_qcom_common",
+    "target_path": "device/qcom/common",
+     "revision": "cm-12.1"
   },
   {
-    "repository": "android_device_motorola_msm8960dt-common",
-    "target_path": "device/motorola/msm8960dt-common"
+     "remote": "github",
+    "repository": "CheckYourScreen/android_device_motorola_msm8960dt-common",
+    "target_path": "device/motorola/msm8960dt-common",
+    "revision": "cm-12.1"
   },
   {
-    "repository": "android_kernel_motorola_ghost",
-    "target_path": "kernel/motorola/ghost"
+     "remote": "github",
+    "repository": "CheckYourScreen/android_kernel_motorola_ghost",
+    "target_path": "kernel/motorola/ghost",
+     "revision": "cm-12.1"
   }
 ]
