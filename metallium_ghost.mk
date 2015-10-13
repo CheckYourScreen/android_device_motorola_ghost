@@ -12,8 +12,8 @@ include vendor/metallium/main.mk
 
 $(call inherit-product, device/motorola/ghost/full_ghost.mk)
 
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/metallium/config/common_full_phone.mk)
+# Inheriting shit not allowed.
+# (call inherit-product, vendor/metallium/config/common_full_phone.mk)
 
 # Enhanced NFC
 $(call inherit-product, vendor/metallium/config/nfc_enhanced.mk)
